@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 100vh;
+  min-height: 818px;
 }
 
 .u-section-1 .u-gallery-1 {
@@ -7,7 +7,7 @@
   grid-template-columns: auto auto auto auto auto;
   width: 1727px;
   grid-gap: 15px 15px;
-  margin: 188px -293px 0;
+  margin: 171px -293px -132px;
 }
 
 .u-section-1 .u-gallery-inner-1 {

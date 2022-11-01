@@ -4248,6 +4248,8 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"*,\r\nhtml {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n}\r\n\r\n.main {\r\n\tfont-family: Arial, Verdana, sans-serif;\r\n}\r\n\r\n.sidebar {\r\n\tbackground-color: #264653;\r\n\twidth: 12rem;\r\n\theight: 100vh;\r\n\tpadding: 0;\r\n\tposition: fixed;\r\n\ttransition: transform 300ms ease-in;\r\n\r\n\t&--isHidden {\r\n\t\ttransform: translateX(-12rem);\r\n\t\ttransition: transform 300ms ease-out;\r\n\t}\r\n\r\n\t&-menu {\r\n\t\tlist-style: none;\r\n\t\tpadding: 1.5rem;\r\n\t\tmargin-top: 0;\r\n\r\n\t\t&__item {\r\n\t\t\tdisplay: block;\r\n\t\t\tcursor: pointer;\r\n\t\t\tmargin-bottom: 0.5rem;\r\n\r\n\t\t\ta {\r\n\t\t\t\tcolor: #e9c46a;\r\n\t\t\t\ttext-decoration: none;\r\n\t\t\t\tdisplay: block;\r\n\r\n\t\t\t\t&:hover {\r\n\t\t\t\t\tcolor: #e76f51;\r\n\t\t\t\t\ttransition: color 150ms linear;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n\r\n.content {\r\n\tbackground-color: #2a9d8f;\r\n\tpadding: 2rem;\r\n\theight: 100vh;\r\n\tcolor: white;\r\n}\r\n\r\n#toggle {\r\n\tpadding: 0.5rem 2rem;\r\n\tcursor: pointer;\r\n\ttransition: all 150ms linear;\r\n\r\n\t&:hover {\r\n\t\tbackground-color: #f4a261;\r\n\t\ttransition: all 150ms ease-in;\r\n\t}\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC;AACD,IAAI,CAAC;EACJ,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACV;;;AAED,AAAA,KAAK,CAAC;EACL,WAAW,EAAE,0BAA0B;CACvC;;;AAED,AAAA,QAAQ,CAAC;EACR,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,CAAC;EACV,QAAQ,EAAE,KAAK;EACf,UAAU,EAAE,uBAAuB;CA6BnC;;;AA3BC,AAAD,kBAAW,CAAC;EACX,SAAS,EAAE,kBAAkB;EAC7B,UAAU,EAAE,wBAAwB;CACpC;;;AAEA,AAAD,aAAM,CAAC;EACN,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,MAAM;EACf,UAAU,EAAE,CAAC;CAkBb;;;AAhBC,AAAD,mBAAO,CAAC;EACP,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,OAAO;EACf,aAAa,EAAE,MAAM;CAYrB;;;AAfA,AAKA,mBALM,CAKN,CAAC,CAAC;EACD,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,KAAK;CAMd;;;AAdD,AAUC,mBAVK,CAKN,CAAC,AAKC,MAAM,CAAC;EACP,KAAK,EAAE,OAAO;EACd,UAAU,EAAE,kBAAkB;CAC9B;;;AAML,AAAA,QAAQ,CAAC;EACR,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CACZ;;;AAED,AAAA,OAAO,CAAC;EACP,OAAO,EAAE,WAAW;EACpB,MAAM,EAAE,OAAO;EACf,UAAU,EAAE,gBAAgB;CAM5B;;;AATD,AAKC,OALM,AAKL,MAAM,CAAC;EACP,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,iBAAiB;CAC7B"
+}

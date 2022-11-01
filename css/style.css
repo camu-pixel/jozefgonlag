@@ -1,0 +1,103 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.navbar {
+  z-index: 4;
+}
+
+.sidebar {
+  background-color: #264653;
+  width: 12rem;
+  height: 100vh;
+  padding: 0;
+  top: 0;
+  position: fixed;
+  transition: transform 300ms ease-in;
+  z-index: 5;
+}
+
+.sidebar--isHidden {
+  transform: translateX(-12rem);
+  transition: transform 300ms ease-out;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 1.5rem;
+  margin-top: 0;
+}
+
+.sidebar-menu__item {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-menu__item a {
+  color: #e9c46a;
+  text-decoration: none;
+  display: block;
+  margin-right: 0.5rem;
+}
+
+.sidebar-menu__item a:hover {
+  color: #e76f51;
+  transition: color 150ms linear;
+}
+
+.sidebar-menu__item a svg {
+  margin-right: 0.5rem;
+}
+
+.content {
+  background-color: #2a9d8f;
+  padding: 2rem;
+  height: 100vh;
+  color: white;
+}
+
+#toggle {
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  transition: all 150ms linear;
+}
+
+#toggle:hover {
+  background-color: #f4a261;
+  transition: all 150ms ease-in;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#overlay {
+  position: fixed;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black background with opacity */
+  z-index: 3;
+  /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+  /* Add a pointer on hover */
+}
